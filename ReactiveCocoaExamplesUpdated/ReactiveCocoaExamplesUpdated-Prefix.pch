@@ -1,0 +1,22 @@
+//
+//  ReactiveCocoaExamplesUpdated-Prefix.pch
+//  ReactiveCocoaExamplesUpdated
+//
+//  Created by Jayesh Kawli on 10/23/16.
+//  Copyright © 2016 Jayesh Kawli. All rights reserved.
+//
+
+#ifndef ReactiveCocoaExamplesUpdated_Prefix_pch
+#define ReactiveCocoaExamplesUpdated_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ReactiveCocoaExamplesUpdated_Prefix_pch */
+
+@import AFNetworking_RACExtensions;
+#define BASE_URL @"https://api.flightstats.com/"
+#define API_EXTENSION @"flex/"
+#define BASE_URL_SHORT @"http://www.jayeshkawli.com"
+#define APP_ID @""
+#define APP_KEY @""

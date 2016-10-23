@@ -7,13 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233A49620932D24BD36C0C37 /* Pods_ReactiveCocoaExamplesUpdated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAA9284242BF34C791852EB /* Pods_ReactiveCocoaExamplesUpdated.framework */; };
 		E30F3F341DBC582E00F12D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E30F3F331DBC582E00F12D6C /* main.m */; };
 		E30F3F371DBC582E00F12D6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E30F3F361DBC582E00F12D6C /* AppDelegate.m */; };
 		E30F3F3A1DBC582E00F12D6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E30F3F391DBC582E00F12D6C /* ViewController.m */; };
-		E30F3F3D1DBC582E00F12D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30F3F3B1DBC582E00F12D6C /* Main.storyboard */; };
 		E30F3F3F1DBC582E00F12D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30F3F3E1DBC582E00F12D6C /* Assets.xcassets */; };
 		E30F3F421DBC582E00F12D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30F3F401DBC582E00F12D6C /* LaunchScreen.storyboard */; };
 		E30F3F4D1DBC582E00F12D6C /* ReactiveCocoaExamplesUpdatedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E30F3F4C1DBC582E00F12D6C /* ReactiveCocoaExamplesUpdatedTests.m */; };
+		E30F3F5D1DBC58F500F12D6C /* UISearchBar+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = E30F3F5A1DBC58F500F12D6C /* UISearchBar+RAC.m */; };
+		E30F3F5E1DBC58F500F12D6C /* UISearchDisplayController+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = E30F3F5C1DBC58F500F12D6C /* UISearchDisplayController+RAC.m */; };
+		E39ECE041DBD705D002DC466 /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE031DBD705D002DC466 /* UIViewController+Logging.m */; };
+		E39ECE071DBD706A002DC466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39ECE051DBD706A002DC466 /* Main.storyboard */; };
+		E39ECE081DBD706A002DC466 /* DemoScreens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39ECE061DBD706A002DC466 /* DemoScreens.storyboard */; };
+		E39ECE0B1DBD7076002DC466 /* Airline.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE0A1DBD7076002DC466 /* Airline.m */; };
+		E39ECE2A1DBD7080002DC466 /* JKReactiveTextFieldsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE0D1DBD7080002DC466 /* JKReactiveTextFieldsDemoViewController.m */; };
+		E39ECE2B1DBD7080002DC466 /* JKReactiveSearchThrottleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE0F1DBD7080002DC466 /* JKReactiveSearchThrottleViewController.m */; };
+		E39ECE2C1DBD7080002DC466 /* JKReactiveDownloadOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE111DBD7080002DC466 /* JKReactiveDownloadOperationViewController.m */; };
+		E39ECE2D1DBD7080002DC466 /* JKReactiveCombineSignalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE131DBD7080002DC466 /* JKReactiveCombineSignalsViewController.m */; };
+		E39ECE2E1DBD7080002DC466 /* JKReactiveButtonActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE151DBD7080002DC466 /* JKReactiveButtonActionsViewController.m */; };
+		E39ECE2F1DBD7080002DC466 /* JKReactiveRacSequenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE171DBD7080002DC466 /* JKReactiveRacSequenceViewController.m */; };
+		E39ECE301DBD7080002DC466 /* JKReactiveRACSignalLifecycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE191DBD7080002DC466 /* JKReactiveRACSignalLifecycleViewController.m */; };
+		E39ECE311DBD7080002DC466 /* JKReactiveMiscelleneousExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE1B1DBD7080002DC466 /* JKReactiveMiscelleneousExamples.m */; };
+		E39ECE321DBD7080002DC466 /* JKReactivePauseSignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE1D1DBD7080002DC466 /* JKReactivePauseSignalViewController.m */; };
+		E39ECE331DBD7080002DC466 /* JKReactiveTimeoutDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE1F1DBD7080002DC466 /* JKReactiveTimeoutDemoViewController.m */; };
+		E39ECE341DBD7080002DC466 /* InputValidationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE211DBD7080002DC466 /* InputValidationViewController.m */; };
+		E39ECE351DBD7080002DC466 /* NetworkOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE231DBD7080002DC466 /* NetworkOperationViewController.m */; };
+		E39ECE361DBD7080002DC466 /* ImageUpdateDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE251DBD7080002DC466 /* ImageUpdateDemoViewController.m */; };
+		E39ECE371DBD7080002DC466 /* DemoReactiveSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE271DBD7080002DC466 /* DemoReactiveSearchBarViewController.m */; };
+		E39ECE381DBD7080002DC466 /* JKReactiveAllMiscelleneousExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE291DBD7080002DC466 /* JKReactiveAllMiscelleneousExamplesViewController.m */; };
+		E39ECE3D1DBD7088002DC466 /* DemoHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE3A1DBD7088002DC466 /* DemoHomePageViewController.m */; };
+		E39ECE3E1DBD7088002DC466 /* JKReactiveDemosLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39ECE3C1DBD7088002DC466 /* JKReactiveDemosLandingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +50,66 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8DAA9284242BF34C791852EB /* Pods_ReactiveCocoaExamplesUpdated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveCocoaExamplesUpdated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E235B11319E79969E51CCBA /* Pods-ReactiveCocoaExamplesUpdated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaExamplesUpdated.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaExamplesUpdated/Pods-ReactiveCocoaExamplesUpdated.debug.xcconfig"; sourceTree = "<group>"; };
+		D6C35DA8A43E0DEAF5EB7964 /* Pods-ReactiveCocoaExamplesUpdated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaExamplesUpdated.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaExamplesUpdated/Pods-ReactiveCocoaExamplesUpdated.release.xcconfig"; sourceTree = "<group>"; };
 		E30F3F2F1DBC582E00F12D6C /* ReactiveCocoaExamplesUpdated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaExamplesUpdated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30F3F331DBC582E00F12D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E30F3F351DBC582E00F12D6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E30F3F361DBC582E00F12D6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E30F3F381DBC582E00F12D6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E30F3F391DBC582E00F12D6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E30F3F3C1DBC582E00F12D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E30F3F3E1DBC582E00F12D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E30F3F411DBC582E00F12D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E30F3F431DBC582E00F12D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E30F3F481DBC582E00F12D6C /* ReactiveCocoaExamplesUpdatedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaExamplesUpdatedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30F3F4C1DBC582E00F12D6C /* ReactiveCocoaExamplesUpdatedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaExamplesUpdatedTests.m; sourceTree = "<group>"; };
 		E30F3F4E1DBC582E00F12D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30F3F591DBC58F500F12D6C /* UISearchBar+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+RAC.h"; sourceTree = "<group>"; };
+		E30F3F5A1DBC58F500F12D6C /* UISearchBar+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+RAC.m"; sourceTree = "<group>"; };
+		E30F3F5B1DBC58F500F12D6C /* UISearchDisplayController+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchDisplayController+RAC.h"; sourceTree = "<group>"; };
+		E30F3F5C1DBC58F500F12D6C /* UISearchDisplayController+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchDisplayController+RAC.m"; sourceTree = "<group>"; };
+		E39ECE021DBD705D002DC466 /* UIViewController+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Logging.h"; sourceTree = "<group>"; };
+		E39ECE031DBD705D002DC466 /* UIViewController+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logging.m"; sourceTree = "<group>"; };
+		E39ECE051DBD706A002DC466 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E39ECE061DBD706A002DC466 /* DemoScreens.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DemoScreens.storyboard; sourceTree = "<group>"; };
+		E39ECE091DBD7076002DC466 /* Airline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Airline.h; sourceTree = "<group>"; };
+		E39ECE0A1DBD7076002DC466 /* Airline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Airline.m; sourceTree = "<group>"; };
+		E39ECE0C1DBD7080002DC466 /* JKReactiveTextFieldsDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactiveTextFieldsDemoViewController.h; sourceTree = "<group>"; };
+		E39ECE0D1DBD7080002DC466 /* JKReactiveTextFieldsDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactiveTextFieldsDemoViewController.m; sourceTree = "<group>"; };
+		E39ECE0E1DBD7080002DC466 /* JKReactiveSearchThrottleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactiveSearchThrottleViewController.h; sourceTree = "<group>"; };
+		E39ECE0F1DBD7080002DC466 /* JKReactiveSearchThrottleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactiveSearchThrottleViewController.m; sourceTree = "<group>"; };
+		E39ECE101DBD7080002DC466 /* JKReactiveDownloadOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactiveDownloadOperationViewController.h; sourceTree = "<group>"; };
+		E39ECE111DBD7080002DC466 /* JKReactiveDownloadOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactiveDownloadOperationViewController.m; sourceTree = "<group>"; };
+		E39ECE121DBD7080002DC466 /* JKReactiveCombineSignalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactiveCombineSignalsViewController.h; sourceTree = "<group>"; };
+		E39ECE131DBD7080002DC466 /* JKReactiveCombineSignalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactiveCombineSignalsViewController.m; sourceTree = "<group>"; };
+		E39ECE141DBD7080002DC466 /* JKReactiveButtonActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactiveButtonActionsViewController.h; sourceTree = "<group>"; };
+		E39ECE151DBD7080002DC466 /* JKReactiveButtonActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactiveButtonActionsViewController.m; sourceTree = "<group>"; };
+		E39ECE161DBD7080002DC466 /* JKReactiveRacSequenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactiveRacSequenceViewController.h; sourceTree = "<group>"; };
+		E39ECE171DBD7080002DC466 /* JKReactiveRacSequenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactiveRacSequenceViewController.m; sourceTree = "<group>"; };
+		E39ECE181DBD7080002DC466 /* JKReactiveRACSignalLifecycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactiveRACSignalLifecycleViewController.h; sourceTree = "<group>"; };
+		E39ECE191DBD7080002DC466 /* JKReactiveRACSignalLifecycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactiveRACSignalLifecycleViewController.m; sourceTree = "<group>"; };
+		E39ECE1A1DBD7080002DC466 /* JKReactiveMiscelleneousExamples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactiveMiscelleneousExamples.h; sourceTree = "<group>"; };
+		E39ECE1B1DBD7080002DC466 /* JKReactiveMiscelleneousExamples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactiveMiscelleneousExamples.m; sourceTree = "<group>"; };
+		E39ECE1C1DBD7080002DC466 /* JKReactivePauseSignalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactivePauseSignalViewController.h; sourceTree = "<group>"; };
+		E39ECE1D1DBD7080002DC466 /* JKReactivePauseSignalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactivePauseSignalViewController.m; sourceTree = "<group>"; };
+		E39ECE1E1DBD7080002DC466 /* JKReactiveTimeoutDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactiveTimeoutDemoViewController.h; sourceTree = "<group>"; };
+		E39ECE1F1DBD7080002DC466 /* JKReactiveTimeoutDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactiveTimeoutDemoViewController.m; sourceTree = "<group>"; };
+		E39ECE201DBD7080002DC466 /* InputValidationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputValidationViewController.h; sourceTree = "<group>"; };
+		E39ECE211DBD7080002DC466 /* InputValidationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputValidationViewController.m; sourceTree = "<group>"; };
+		E39ECE221DBD7080002DC466 /* NetworkOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkOperationViewController.h; sourceTree = "<group>"; };
+		E39ECE231DBD7080002DC466 /* NetworkOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkOperationViewController.m; sourceTree = "<group>"; };
+		E39ECE241DBD7080002DC466 /* ImageUpdateDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUpdateDemoViewController.h; sourceTree = "<group>"; };
+		E39ECE251DBD7080002DC466 /* ImageUpdateDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUpdateDemoViewController.m; sourceTree = "<group>"; };
+		E39ECE261DBD7080002DC466 /* DemoReactiveSearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoReactiveSearchBarViewController.h; sourceTree = "<group>"; };
+		E39ECE271DBD7080002DC466 /* DemoReactiveSearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoReactiveSearchBarViewController.m; sourceTree = "<group>"; };
+		E39ECE281DBD7080002DC466 /* JKReactiveAllMiscelleneousExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactiveAllMiscelleneousExamplesViewController.h; sourceTree = "<group>"; };
+		E39ECE291DBD7080002DC466 /* JKReactiveAllMiscelleneousExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactiveAllMiscelleneousExamplesViewController.m; sourceTree = "<group>"; };
+		E39ECE391DBD7088002DC466 /* DemoHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoHomePageViewController.h; sourceTree = "<group>"; };
+		E39ECE3A1DBD7088002DC466 /* DemoHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoHomePageViewController.m; sourceTree = "<group>"; };
+		E39ECE3B1DBD7088002DC466 /* JKReactiveDemosLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKReactiveDemosLandingViewController.h; sourceTree = "<group>"; };
+		E39ECE3C1DBD7088002DC466 /* JKReactiveDemosLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKReactiveDemosLandingViewController.m; sourceTree = "<group>"; };
+		E39ECE3F1DBD70DC002DC466 /* ReactiveCocoaExamplesUpdated-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoaExamplesUpdated-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233A49620932D24BD36C0C37 /* Pods_ReactiveCocoaExamplesUpdated.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +131,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80A16020C12272DE59B63B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA9284242BF34C791852EB /* Pods_ReactiveCocoaExamplesUpdated.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E30F3F261DBC582E00F12D6C = {
 			isa = PBXGroup;
 			children = (
 				E30F3F311DBC582E00F12D6C /* ReactiveCocoaExamplesUpdated */,
 				E30F3F4B1DBC582E00F12D6C /* ReactiveCocoaExamplesUpdatedTests */,
 				E30F3F301DBC582E00F12D6C /* Products */,
+				EAE8AF58862E1DBC6B6ADA04 /* Pods */,
+				80A16020C12272DE59B63B82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,15 +162,17 @@
 		E30F3F311DBC582E00F12D6C /* ReactiveCocoaExamplesUpdated */ = {
 			isa = PBXGroup;
 			children = (
+				E39ECDFC1DBD7015002DC466 /* JKReactiveDemos */,
+				E30F3F5F1DBC58FF00F12D6C /* Extensions */,
 				E30F3F351DBC582E00F12D6C /* AppDelegate.h */,
 				E30F3F361DBC582E00F12D6C /* AppDelegate.m */,
 				E30F3F381DBC582E00F12D6C /* ViewController.h */,
 				E30F3F391DBC582E00F12D6C /* ViewController.m */,
-				E30F3F3B1DBC582E00F12D6C /* Main.storyboard */,
 				E30F3F3E1DBC582E00F12D6C /* Assets.xcassets */,
 				E30F3F401DBC582E00F12D6C /* LaunchScreen.storyboard */,
 				E30F3F431DBC582E00F12D6C /* Info.plist */,
 				E30F3F321DBC582E00F12D6C /* Supporting Files */,
+				E39ECE3F1DBD70DC002DC466 /* ReactiveCocoaExamplesUpdated-Prefix.pch */,
 			);
 			path = ReactiveCocoaExamplesUpdated;
 			sourceTree = "<group>";
@@ -111,6 +194,113 @@
 			path = ReactiveCocoaExamplesUpdatedTests;
 			sourceTree = "<group>";
 		};
+		E30F3F5F1DBC58FF00F12D6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E30F3F591DBC58F500F12D6C /* UISearchBar+RAC.h */,
+				E30F3F5A1DBC58F500F12D6C /* UISearchBar+RAC.m */,
+				E30F3F5B1DBC58F500F12D6C /* UISearchDisplayController+RAC.h */,
+				E30F3F5C1DBC58F500F12D6C /* UISearchDisplayController+RAC.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E39ECDFC1DBD7015002DC466 /* JKReactiveDemos */ = {
+			isa = PBXGroup;
+			children = (
+				E39ECE011DBD7041002DC466 /* Controllers */,
+				E39ECE001DBD703B002DC466 /* Demo Controllers */,
+				E39ECDFF1DBD7032002DC466 /* Models */,
+				E39ECDFE1DBD7028002DC466 /* Storyboards */,
+				E39ECDFD1DBD701E002DC466 /* Categories */,
+			);
+			name = JKReactiveDemos;
+			sourceTree = "<group>";
+		};
+		E39ECDFD1DBD701E002DC466 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E39ECE021DBD705D002DC466 /* UIViewController+Logging.h */,
+				E39ECE031DBD705D002DC466 /* UIViewController+Logging.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		E39ECDFE1DBD7028002DC466 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E39ECE051DBD706A002DC466 /* Main.storyboard */,
+				E39ECE061DBD706A002DC466 /* DemoScreens.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		E39ECDFF1DBD7032002DC466 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E39ECE091DBD7076002DC466 /* Airline.h */,
+				E39ECE0A1DBD7076002DC466 /* Airline.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E39ECE001DBD703B002DC466 /* Demo Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E39ECE0C1DBD7080002DC466 /* JKReactiveTextFieldsDemoViewController.h */,
+				E39ECE0D1DBD7080002DC466 /* JKReactiveTextFieldsDemoViewController.m */,
+				E39ECE0E1DBD7080002DC466 /* JKReactiveSearchThrottleViewController.h */,
+				E39ECE0F1DBD7080002DC466 /* JKReactiveSearchThrottleViewController.m */,
+				E39ECE101DBD7080002DC466 /* JKReactiveDownloadOperationViewController.h */,
+				E39ECE111DBD7080002DC466 /* JKReactiveDownloadOperationViewController.m */,
+				E39ECE121DBD7080002DC466 /* JKReactiveCombineSignalsViewController.h */,
+				E39ECE131DBD7080002DC466 /* JKReactiveCombineSignalsViewController.m */,
+				E39ECE141DBD7080002DC466 /* JKReactiveButtonActionsViewController.h */,
+				E39ECE151DBD7080002DC466 /* JKReactiveButtonActionsViewController.m */,
+				E39ECE161DBD7080002DC466 /* JKReactiveRacSequenceViewController.h */,
+				E39ECE171DBD7080002DC466 /* JKReactiveRacSequenceViewController.m */,
+				E39ECE181DBD7080002DC466 /* JKReactiveRACSignalLifecycleViewController.h */,
+				E39ECE191DBD7080002DC466 /* JKReactiveRACSignalLifecycleViewController.m */,
+				E39ECE1A1DBD7080002DC466 /* JKReactiveMiscelleneousExamples.h */,
+				E39ECE1B1DBD7080002DC466 /* JKReactiveMiscelleneousExamples.m */,
+				E39ECE1C1DBD7080002DC466 /* JKReactivePauseSignalViewController.h */,
+				E39ECE1D1DBD7080002DC466 /* JKReactivePauseSignalViewController.m */,
+				E39ECE1E1DBD7080002DC466 /* JKReactiveTimeoutDemoViewController.h */,
+				E39ECE1F1DBD7080002DC466 /* JKReactiveTimeoutDemoViewController.m */,
+				E39ECE201DBD7080002DC466 /* InputValidationViewController.h */,
+				E39ECE211DBD7080002DC466 /* InputValidationViewController.m */,
+				E39ECE221DBD7080002DC466 /* NetworkOperationViewController.h */,
+				E39ECE231DBD7080002DC466 /* NetworkOperationViewController.m */,
+				E39ECE241DBD7080002DC466 /* ImageUpdateDemoViewController.h */,
+				E39ECE251DBD7080002DC466 /* ImageUpdateDemoViewController.m */,
+				E39ECE261DBD7080002DC466 /* DemoReactiveSearchBarViewController.h */,
+				E39ECE271DBD7080002DC466 /* DemoReactiveSearchBarViewController.m */,
+				E39ECE281DBD7080002DC466 /* JKReactiveAllMiscelleneousExamplesViewController.h */,
+				E39ECE291DBD7080002DC466 /* JKReactiveAllMiscelleneousExamplesViewController.m */,
+			);
+			name = "Demo Controllers";
+			sourceTree = "<group>";
+		};
+		E39ECE011DBD7041002DC466 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E39ECE391DBD7088002DC466 /* DemoHomePageViewController.h */,
+				E39ECE3A1DBD7088002DC466 /* DemoHomePageViewController.m */,
+				E39ECE3B1DBD7088002DC466 /* JKReactiveDemosLandingViewController.h */,
+				E39ECE3C1DBD7088002DC466 /* JKReactiveDemosLandingViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EAE8AF58862E1DBC6B6ADA04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E235B11319E79969E51CCBA /* Pods-ReactiveCocoaExamplesUpdated.debug.xcconfig */,
+				D6C35DA8A43E0DEAF5EB7964 /* Pods-ReactiveCocoaExamplesUpdated.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E30F3F511DBC582E00F12D6C /* Build configuration list for PBXNativeTarget "ReactiveCocoaExamplesUpdated" */;
 			buildPhases = (
+				1737A7B800D33E01B7F38E22 /* [CP] Check Pods Manifest.lock */,
 				E30F3F2B1DBC582E00F12D6C /* Sources */,
 				E30F3F2C1DBC582E00F12D6C /* Frameworks */,
 				E30F3F2D1DBC582E00F12D6C /* Resources */,
+				F8549F0A30C1FC06B3206F0A /* [CP] Embed Pods Frameworks */,
+				D99ADA743364661EECABF51A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,7 +388,8 @@
 			files = (
 				E30F3F421DBC582E00F12D6C /* LaunchScreen.storyboard in Resources */,
 				E30F3F3F1DBC582E00F12D6C /* Assets.xcassets in Resources */,
-				E30F3F3D1DBC582E00F12D6C /* Main.storyboard in Resources */,
+				E39ECE071DBD706A002DC466 /* Main.storyboard in Resources */,
+				E39ECE081DBD706A002DC466 /* DemoScreens.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,14 +402,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1737A7B800D33E01B7F38E22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D99ADA743364661EECABF51A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaExamplesUpdated/Pods-ReactiveCocoaExamplesUpdated-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8549F0A30C1FC06B3206F0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaExamplesUpdated/Pods-ReactiveCocoaExamplesUpdated-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E30F3F2B1DBC582E00F12D6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E30F3F3A1DBC582E00F12D6C /* ViewController.m in Sources */,
+				E30F3F5E1DBC58F500F12D6C /* UISearchDisplayController+RAC.m in Sources */,
+				E39ECE341DBD7080002DC466 /* InputValidationViewController.m in Sources */,
+				E39ECE2C1DBD7080002DC466 /* JKReactiveDownloadOperationViewController.m in Sources */,
+				E39ECE361DBD7080002DC466 /* ImageUpdateDemoViewController.m in Sources */,
+				E39ECE321DBD7080002DC466 /* JKReactivePauseSignalViewController.m in Sources */,
+				E39ECE2B1DBD7080002DC466 /* JKReactiveSearchThrottleViewController.m in Sources */,
+				E39ECE3D1DBD7088002DC466 /* DemoHomePageViewController.m in Sources */,
+				E39ECE0B1DBD7076002DC466 /* Airline.m in Sources */,
+				E39ECE381DBD7080002DC466 /* JKReactiveAllMiscelleneousExamplesViewController.m in Sources */,
+				E39ECE311DBD7080002DC466 /* JKReactiveMiscelleneousExamples.m in Sources */,
+				E39ECE2F1DBD7080002DC466 /* JKReactiveRacSequenceViewController.m in Sources */,
+				E39ECE301DBD7080002DC466 /* JKReactiveRACSignalLifecycleViewController.m in Sources */,
+				E39ECE3E1DBD7088002DC466 /* JKReactiveDemosLandingViewController.m in Sources */,
+				E39ECE2A1DBD7080002DC466 /* JKReactiveTextFieldsDemoViewController.m in Sources */,
 				E30F3F371DBC582E00F12D6C /* AppDelegate.m in Sources */,
+				E39ECE351DBD7080002DC466 /* NetworkOperationViewController.m in Sources */,
+				E39ECE371DBD7080002DC466 /* DemoReactiveSearchBarViewController.m in Sources */,
+				E30F3F5D1DBC58F500F12D6C /* UISearchBar+RAC.m in Sources */,
+				E39ECE041DBD705D002DC466 /* UIViewController+Logging.m in Sources */,
 				E30F3F341DBC582E00F12D6C /* main.m in Sources */,
+				E39ECE331DBD7080002DC466 /* JKReactiveTimeoutDemoViewController.m in Sources */,
+				E39ECE2E1DBD7080002DC466 /* JKReactiveButtonActionsViewController.m in Sources */,
+				E39ECE2D1DBD7080002DC466 /* JKReactiveCombineSignalsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,14 +501,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E30F3F3B1DBC582E00F12D6C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E30F3F3C1DBC582E00F12D6C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E30F3F401DBC582E00F12D6C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +552,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -339,7 +594,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -349,9 +604,14 @@
 		};
 		E30F3F521DBC582E00F12D6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E235B11319E79969E51CCBA /* Pods-ReactiveCocoaExamplesUpdated.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/ReactiveCocoaExamplesUpdated-Prefix.pch";
 				INFOPLIST_FILE = ReactiveCocoaExamplesUpdated/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wayfair.org.ReactiveCocoaExamplesUpdated;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,9 +620,14 @@
 		};
 		E30F3F531DBC582E00F12D6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C35DA8A43E0DEAF5EB7964 /* Pods-ReactiveCocoaExamplesUpdated.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/ReactiveCocoaExamplesUpdated-Prefix.pch";
 				INFOPLIST_FILE = ReactiveCocoaExamplesUpdated/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wayfair.org.ReactiveCocoaExamplesUpdated;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +677,7 @@
 				E30F3F531DBC582E00F12D6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E30F3F541DBC582E00F12D6C /* Build configuration list for PBXNativeTarget "ReactiveCocoaExamplesUpdatedTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +686,7 @@
 				E30F3F561DBC582E00F12D6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
