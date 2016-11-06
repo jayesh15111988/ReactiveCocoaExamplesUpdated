@@ -327,10 +327,12 @@
 }
 
 -(void)simulateFlattenMap {
-    RACSignal* firstSig = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+    RACSignal* firstSig = [[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
         [subscriber sendNext:@[@"1",@"2",@"3"]];
         return nil;
-    }];
+    }] deliverOn:[RACScheduler mainThreadScheduler]];
+    [RACScheduler schedulerWithPriority:RACSchedulerPriorityDefault];
+    
     
     RACSignal* mappedSignal = [firstSig flattenMap:^RACStream *(id value) {
         return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
